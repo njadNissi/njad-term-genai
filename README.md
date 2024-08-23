@@ -2,6 +2,10 @@
 
 To use this feature, please open your favorite terminal and follow the following steps(as an Example, I am using Ubuntu/linux with terminator terminal. If you're on a different environment, translate commands accordingly): 
 
+![term-genai1](https://github.com/user-attachments/assets/614bbe5f-b89f-4e05-968f-9af1762a96b5)
+![term-genai2](https://github.com/user-attachments/assets/3d0bbd7a-8abf-4e62-bc81-0f81476cc400)
+
+
 ## Requirements
 
 This project is based on Google Gemini generative ai. the requirement is:
