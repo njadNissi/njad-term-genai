@@ -120,8 +120,9 @@ def run_chat(qst:str, stream:bool=False):
 			if match_img:
 				img_path = match_img.group(1).strip() # Extract the captured path and remove leading/trailing whitespace
 				qst = re.sub(pattern=IMG_PATTERN, repl="", string=qst) # removes the image path from qst
-			# Open Question prompt
-			response = chat.send_message([qst, Image.open(img_path)], stream=stream)
+			    # Send Question and Image
+            # Send Question, No image
+			response = chat.send_message([qst, Image.open(img_path)] if match_img else qst, stream=stream)
 		except Exception as e:
 			rconsole.print(f"[i]{e}[/i] :smiley:", style="bold red")
 			return
