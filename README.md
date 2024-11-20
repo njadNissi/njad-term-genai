@@ -1,12 +1,15 @@
 # njad-term-genai
 
-To use this feature, please open your favorite terminal and follow the following steps(as an Example, I am using Ubuntu/linux with terminator terminal. If you're on a different environment, translate commands accordingly): 
+This is a Text User Interface(TUI) for Gemini (Google Large Language Model). 
+It allows you to conduct conversations with AI from your terminal window. you can ask questions and include images within the question, help with writing and debugging codes for developpers, etc. It also allows:
+- Choosing what model you want to use
+- Choosing wich question and answer (part of chat history) to store locally in txt file (you can view on offline mode)
 
-![term-genai1](https://github.com/user-attachments/assets/614bbe5f-b89f-4e05-968f-9af1762a96b5)
-![term-genai2](https://github.com/user-attachments/assets/3d0bbd7a-8abf-4e62-bc81-0f81476cc400)
+![term-genai2](images/njad_genai_image.png)
 
+## INSTALLATION
 
-## Requirements
+To use this feature, please open your favorite terminal and follow the following steps(as an Example, I am using Ubuntu(linux) with terminator terminal(any would work). If you're on a different environment, translate commands accordingly): 
 
 This project is based on Google Gemini generative ai. the requirement is:
 
@@ -16,11 +19,6 @@ This project is based on Google Gemini generative ai. the requirement is:
 	
 * 2. Clone the repo "git clone git@github.com:njadNissi/njad-term-genai.git", and make your contribution.
 
-
-## Steps to follow
-
-
-* 2. open `~/.bashrc`, scroll further below and where there are export commands and type: `export GOOGLE_API_KEY="here paste your secret key"`. save the changes, and validate the changes with '`source ~/.bashrc`'
 
 * 3. "pip install njad-term-genai"
 
