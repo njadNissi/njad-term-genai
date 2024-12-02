@@ -1,2 +1,9 @@
 .ask_history/
+genaiterm_env/
+term-genai/
 ask.sh
+term_genai/genai.py
+term_genai/test.py
+term_genai/tools.py
+term_genai/config.ini
+term_genai/loc_ale.py
